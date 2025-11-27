@@ -1,15 +1,15 @@
 export default function LoginPage() {
   return (
-    <form class="flex flex-col p-4">
-      <div class="">
-        <label>email</label>
-        <input placeholder="email" />
+    <form className="flex flex-col p-4">
+      <div className="">
+        <label htmlFor="email">email</label>
+        <input id="email" name="email" placeholder="email" />
       </div>
-      <div class="">
-        <label>password</label>
-        <input placeholder="password" />
+      <div className="">
+        <label htmlFor="password">password</label>
+        <input id="email" name="password" placeholder="password" />
       </div>
-      <button class="bg-blue-500 rounded-md">login</button>
+      <button className="bg-blue-500 rounded-md">login</button>
     </form>
   );
 }
