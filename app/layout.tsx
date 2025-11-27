@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="h-10 border-b border-neutral-800">
+        <header className="h-10 flex justify-between items-center border-b border-neutral-800">
           <nav className="ml-4">
             <Link href="/">WEB</Link>
           </nav>
